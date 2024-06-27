@@ -1,0 +1,90 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+section > article > img{
+    width: 300px;
+    height: 200px;
+}
+
+img{
+    margin: 5px;
+    border: solid 5px slateblue;
+    border-radius: 15%;
+    padding: 5px;
+}
+
+.container_body{
+    background-color: rgba(74, 243, 187, 0.295);
+    width: 80vh;
+    height: 130vh;
+    margin: 0 auto;
+}
+
+.container_header{
+    background-color: rgba(137, 43, 226, 0.336);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header li{
+    display: inline;
+    padding: 10px;
+}
+
+.container_main{
+    width: 90%;
+    background-color: rgba(165, 42, 42, 0.404);
+    margin: 0px auto;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article{
+    width: 30%;
+    padding: 20px 5px;
+}
+
+article h3{
+    font-size: 24px;
+}
+
+article p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article a{
+    background-color: aquamarine;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+article a:hover{
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+#doguinho{
+    background-color: rgb(185, 135, 231);
+}
+
+#doguinho a{
+    background-color: rgb(83, 4, 156);
+    color: aliceblue;
+}
+
+.container_footer{
+    background-color: rgba(0, 0, 255, 0.267);
+}
